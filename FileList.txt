@@ -1,0 +1,26 @@
+ 
+List of files and functions for Spirality
+
+
+
+
+PRIMARY FUNCTIONS: These are functions the user might call
+
+- Spirality: Measures pitch angle of a .fits spiral
+
+- GenSpiral: Creates synthetic .fits spiral.
+- MultiSympart: Adds together multiple symmetric parts (m=2 + m=3, etc.) of a .fits spiral.
+- SpiralArmCount: Counts spiral arms of a .fits spiral. Pitch angle must be input.
+- Sympart: Takes the symmetric part (m=2, m=3, etc.) of a .fits spiral.
+
+
+
+
+SECONDARY FUNCTIONS: These are functions called by other functions
+—- Extract_Filename
+—- fitsread
+—- fitsheader
+—- fitswrite
+—- PeriodToDash
+—- RotateTheta
+
